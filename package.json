@@ -1,0 +1,57 @@
+{
+  "name": "audit-react2shell",
+  "bin": {
+    "audit-react2shell": "./bin/index.js"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logicalHassan/audit-react2shell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logicalHassan/audit-react2shell/issues"
+  },
+  "homepage": "https://github.com/logicalHassan/audit-react2shell#readme",
+  "keywords": [
+    "react2shell",
+    "nextjs",
+    "react",
+    "security",
+    "audit",
+    "vulnerability",
+    "patch",
+    "cve-2025-55182",
+    "cve-2025-55183",
+    "fix",
+    "cli",
+    "scanner",
+    "github-api",
+    "dependency-manager",
+    "security-tools",
+    "rsc",
+    "flight-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "cross-spawn": "^7.0.6",
+    "inquirer": "^13.1.0",
+    "ora": "^9.0.0",
+    "semver": "^7.7.3"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
